@@ -1,0 +1,404 @@
+@font-face{
+    src: url('../fontes/big_noodle_titling.ttf');
+    font-family: 'benz';
+}
+
+@font-face{
+    src: url('../fontes/Vogue.ttf');
+    font-family: 'run';
+}
+
+@font-face{
+    src: url('../fontes/Mont-HeavyDEMO.otf');
+    font-family: 'mercedes';
+}
+
+body::-webkit-scrollbar {
+    width: 14px;               /* width of the entire scrollbar */
+}
+  
+
+body::-webkit-scrollbar-track {
+    background: black;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #24acac;    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: 3px solid black;  /* creates padding around scroll thumb */
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    height: 510px;
+}
+
+.h_fundoLH{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAPM-Library/default/dw07cfec84/pages/2022/2100x591_MAPF1_CONCEPT_LIGHT_LH.jpg?sw=1900&amp;sfrm=jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h_fundoGR{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAPM-Library/default/dwbda0eea4/pages/2022/2100x591_MAPF1_CONCEPT_LIGHT_GR.jpg?sw=1900&amp;sfrm=jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foto{
+    height: 550px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a img{
+    margin: 20px 0 0 20px;
+    /* transition-duration: 1s;
+    transition-timing-function: ease; */
+    transition: transform 1s;
+}
+
+a img:hover{
+    /* height: 55px; */
+    transform: scale(1.1);
+    /* transition-duration: 1s;
+    transition-timing-function: ease; */
+}
+
+.p_nav{
+    color: #24acac;
+    font-family: 'benz';
+    font-size: 25px;
+    transition: transform 0.5s;
+}
+
+.p_nav:hover{
+    transform: scale(1.04);
+    color: #166d6d;
+    /* color: rgb(83, 83, 83); */
+}
+
+.nav_d{
+    color: #166d6d;
+    font-family: 'benz';
+    font-size: 25px;
+    transition: transform 0.5s;
+}
+
+.nav_d:hover{
+    color: #166d6d;
+    transform: scale(1.04);
+}
+
+nav{
+    margin-top: 20px;
+}
+
+h1{
+    font-family: 'mercedes';
+    color: #166d6d;
+    text-align: start;
+    font-size: 30px;
+    margin-top: 350px;
+    margin-left: 40px;
+}
+
+.sec1{
+    background-color: white;
+    height: 1300px;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-family: 'benz';
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+h5{
+    font-family: 'benz';
+    font-size: 23px;
+    color: black;
+}
+
+.pe{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: 'mercedes';
+    color: #166d6d;
+}
+
+.p{
+    height: 280px;
+    width: 280px;
+    margin: 30px 10px 0 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.l1{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc6c1b966/product-sets/lewis-singapore-22/lewis-singapore-gp-productset.jpg?sw=1600&sh=1600&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.l1:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw9e568ca3/product-sets/lewis-singapore-22/701219273002_PP_3_MERCEDES_GREY-sm-1800x1800.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.l2{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwad17564d/images/large/701219273002_mp_01_mercedes.jpg?sw=800&sh=800&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.l2:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw61e605d6/images/large/701219273002_mp_03_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.l3{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw40a88ba4/images/large/701202253001_pp_01_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.l3:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwfa677743/images/large/701202253001_pp_02_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.l4{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwba4a15f6/images/large/701221821001_pp_01_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.l4:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwfe24b5d2/images/large/701221821001_pp_02_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.l5{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0306b090/images/large/701221823001_pp_01_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.l5:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw68dba8f1/images/large/701221823001_pp_02_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.l6{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf865bdce/images/large/701218884001_mp_01_mercedes.jpg?sw=800&sh=800&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.l6:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwb8faab09/images/large/701218884001_mp_02_mercedes.jpg?sw=800&sh=800&sm=fit');
+}
+
+.l7{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0c245223/images/large/701219274002_mp_01_mercedes.jpg?sw=800&sh=800&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.l7:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw789afa20/images/large/701219274002_mp_02_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.l8{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc316c097/images/large/701202265002_mp_01_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.l8:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw726f8f98/images/large/701202265002_mp_04_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.l9{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc6039f11/images/large/701202262003_mp_01_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.l9:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5c462f13/images/large/701202262003_mp_03_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.l10{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw8593bfec/images/large/701218886002_mp_03_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.l10:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw6571cae9/images/large/701218886002_mp_04_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.l11{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw2e8028c4/images/large/701222227001_mp_01_MERCEDES.jpg?sw=1600&sh=1600&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.l11:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwe654c4ac/images/large/701222227001_mp_02_MERCEDES.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.l12{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw3034cb74/images/large/701221822001_pp_01_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.l12:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwfbdfbdcc/images/large/701221822001_pp_02_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+/*  */
+/*  */
+/*  */
+
+.g1{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw2f5ca4a5/images/large/701219232001_mp_01_mercedes.jpg?sw=800&sh=800&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.g1:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw52ddedbe/images/large/701219232001_mp_03_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.g2{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5022372d/images/large/701219239001_mp_01_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.g2:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw6fcf5d17/images/large/701219239001_mp_03_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.g3{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwdd6bdbed/images/large/701219239002_mp_01_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.g3:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwdf5dc103/images/large/701219239002_mp_03_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.g4{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwca5b7a38/images/large/701219241001_mp_01_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.g4:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw07f97762/images/large/701219241001_mp_03_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.g5{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw40a88ba4/images/large/701202253001_pp_01_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.g5:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwfa677743/images/large/701202253001_pp_02_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.g6{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4e033e43/images/large/701219233001_mp_04_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.g6:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwffbc394b/images/large/701219233001_mp_02_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.g7{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwe51bb833/images/large/701202262001_mp_01_mercedes.jpg?sw=800&sh=800&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.g7:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw31b77d59/images/large/701202262001_mp_03_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.g8{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw06dfba73/images/large/701202224001_mp_01_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.g8:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf01988f5/images/large/701202224001_mp_03_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.g9{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw586fb9a5/images/large/701220702001_mp_01_mercedes.jpg?sw=800&sh=800&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.g9:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw691c9827/images/large/701220702001_mp_05_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.g10{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw59754691/images/large/701219238001_mp_01_mercedes.jpg?sw=800&sh=800&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.g10:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw255be687/images/large/701219238001_mp_02_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.g11{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf865bdce/images/large/701218884001_mp_01_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.g11:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw53736fd1/images/large/701218884001_mp_04_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+.g12{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw6c242229/images/large/701220703001_mp_01_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+    transition: background-image 0.7s;
+}
+
+.g12:hover{
+    background-image: url('https://shop.mercedesamgf1.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf0614fdf/images/large/701220703001_mp_03_mercedes.jpg?sw=1600&sh=1600&sm=fit');
+}
+
+/*  */
+/*  */
+/*  */
+
+footer{
+    height: 350px;
+    background-color: #166d6d;
+}
+
+.F_escrita{
+    font-family: 'mercedes';
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 90px;
+}
+
+.F_img{
+    padding-top: 60px;
+    text-align: end;
+}
+
+.topo{
+    text-align: end;
+    font-size: 30px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.seta{
+    color: white;
+    transition: color 1s;
+}
+
+.seta:hover{
+    color: #24acac;
+}
