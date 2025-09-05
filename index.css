@@ -1,0 +1,339 @@
+@font-face{
+    src: url('../fontes/big_noodle_titling.ttf');
+    font-family: 'benz';
+}
+
+@font-face{
+    src: url('../fontes/Mont-HeavyDEMO.otf');
+    font-family: 'mercedes';
+}
+
+body::-webkit-scrollbar {
+    width: 14px;               /* width of the entire scrollbar */
+}
+  
+
+body::-webkit-scrollbar-track {
+    background: black;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #24acac;    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: 3px solid black;  /* creates padding around scroll thumb */
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    height: 840px;
+    background-image: url('../imgs/header_carrof1_6.png');
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+a{
+    text-decoration: none;
+}
+
+a img{
+    margin: 20px 0 0 20px;
+    /* transition-duration: 1s;
+    transition-timing-function: ease; */
+    transition: transform 1s;
+}
+
+a img:hover{
+    /* height: 55px; */
+    transform: scale(1.1);
+    /* transition-duration: 1s;
+    transition-timing-function: ease; */
+}
+
+.p_nav{
+    color: #166d6d;
+    font-family: 'benz';
+    font-size: 25px;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.p_nav:hover{
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    color: #24acac;
+    border-bottom: 1px solid white;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+h1{
+    font-family: 'mercedes';
+    font-size: 50px;
+    color: #166d6d;
+    text-align: center;
+    padding-top: 590px;
+    /* text-shadow: 4px 4px 3px black; */
+}
+
+.e{
+    height: 110px;
+    background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0.968), rgba(0, 0, 0, 0.868), rgba(0, 0, 0, 0.768), rgba(0, 0, 0, 0.668), transparent);
+}
+
+.sec1{
+    height: 630px;
+    margin-top: 30px;
+}
+
+/* .esp{
+    margin-top: 30px;
+} */
+
+h2{
+    text-align: center;
+    color: #166d6d;
+    font-family: 'benz';
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #166d6d;
+}
+
+h3{
+    border-bottom: 2px solid #24acac;
+    color: white;
+}
+
+.piloto{
+    height: 300px;
+    font-family: 'mercedes';
+    color: white;
+    margin: 20px;
+}
+
+.p1{
+    text-align: end;
+}
+
+.p2{
+    text-align: start;
+}
+
+.sec2{
+    height: 700px;
+}
+
+.box{
+    height: 300px;
+    color: #24acac;
+    text-shadow: 3px 2px 3px black;
+    padding: 10px;
+    font-family: 'mercedes';
+}
+
+.q{
+    margin: 10px;
+    background-color: #24acac
+}
+
+.gp1{
+    background-image: url('https://www.mercedesamgf1.com/en/season-2022/red-bull-ring/_jcr_content/root/slider_0/sliderchilditems/slideritem_0/image/MQ7-0-image-20220317155355/M273635_4252.jpeg');
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.gp1:hover{
+    scale: 1.1;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.gp2{
+    background-image: url('https://www.mercedesamgf1.com/en/season-2022/circuit-paul-ricard/_jcr_content/root/slider_0/sliderchilditems/slideritem_0/image/MQ7-0-image-20220317155827/M270883_4252.jpeg');
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.gp2:hover{
+    scale: 1.1;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.gp3{
+    background-image: url('https://www.mercedesamgf1.com/en/season-2022/hungaroring/_jcr_content/root/slider_0/sliderchilditems/slideritem_0/image/MQ7-0-image-20220802155212/M277594_4252.jpeg');
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.gp3:hover{
+    scale: 1.1;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.gp4{
+    background-image: url('https://www.mercedesamgf1.com/en/season-2022/circuit-de-spa-francorchamps/_jcr_content/root/slider_0/sliderchilditems/slideritem_0/image/MQ7-0-image-20220317160638/M278715_4252.jpeg');
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.gp4:hover{
+    scale: 1.1;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.gp5{
+    background-image: url('https://www.mercedesamgf1.com/en/season-2022/circuit-zandvoort/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20220317161021/M279734_4252.jpeg');
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.gp5:hover{
+    scale: 1.1;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.gp6{
+    background-image: url('https://www.mercedesamgf1.com/en/season-2022/autodromo-nazionale-di-monza/_jcr_content/root/slider_0/sliderchilditems/slideritem_0/image/MQ7-0-image-20220317161431/M281032_4252.jpeg');
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.gp6:hover{
+    scale: 1.1;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+    
+.resultados{
+    height: 100px;
+    font-family: 'benz';
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 3px 3px black;
+    text-align: start;
+    margin-top: 20px;
+    line-height: 12px;
+}
+
+/* .resultados:hover{
+    color: white;
+    text-shadow: 2px 3px 3px black;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+} */
+
+.sec3{
+    height: 700px;
+}
+
+.destaques{
+    height: 500px;
+}
+
+.legendaC{
+    background-color: rgba(0, 0, 0, 0.598);
+    font-family: 'mercedes';
+    font-size: 23px;
+    text-shadow: 3px 3px 3px black;
+    color: #24acac;
+}
+
+footer{
+    height: 392px;
+    background-color: #166d6d;
+}
+
+.p_sobre{
+    color: white;
+    transition: 1s ease;
+}
+
+.p_sobre:hover{
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.F_escrita{
+    font-family: 'mercedes';
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 90px;
+}
+
+.F_img{
+    padding-top: 60px;
+    text-align: end;
+}
+
+.topo{
+    text-align: end;
+    font-size: 30px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.seta{
+    color: white;
+    transition: color 1s;
+}
+
+.seta:hover{
+    color: #24acac;
+}
+
+.sec4{
+    height: 620px;
+}
+
+.inf{
+    font-family: 'mercedes';
+    /* border: 5px solid #24acac; */
+}
+
+.cor{
+    color: #24acac;
+}
+
+.accordion-body{
+    background-color: black;
+    color: white;
+}
+
+.h2_a{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'mercedes';
+}
+
+.table{
+    color: white;
+}
+
+/* .color1 { #24acac };
+.color2 { #f4fcfc };
+.color3 { #166d6d };
+.color4 { #8c9494 };
+.color5 { #207878 }; */

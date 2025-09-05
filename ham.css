@@ -1,0 +1,218 @@
+@font-face{
+    src: url('../fontes/big_noodle_titling.ttf');
+    font-family: 'benz';
+}
+
+@font-face{
+    src: url('../fontes/Mont-HeavyDEMO.otf');
+    font-family: 'mercedes';
+}
+
+body::-webkit-scrollbar {
+    width: 14px;               /* width of the entire scrollbar */
+}
+  
+
+body::-webkit-scrollbar-track {
+    background: black;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #24acac;    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: 3px solid black;  /* creates padding around scroll thumb */
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    height: 700px;
+}
+
+.slidesHAM{
+    margin-top: 20px;
+    height: 550px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.foto{
+    height: 550px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a img{
+    margin: 20px 0 0 20px;
+    /* transition-duration: 1s;
+    transition-timing-function: ease; */
+    transition: transform 1s;
+}
+
+a img:hover{
+    /* height: 55px; */
+    transform: scale(1.1);
+    /* transition-duration: 1s;
+    transition-timing-function: ease; */
+}
+
+.p_nav{
+    color: #166d6d;
+    font-family: 'benz';
+    font-size: 25px;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.p_nav:hover{
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    color: #24acac;
+    border-bottom: 1px solid white;
+}
+
+.nav_d{
+    color: #24acac;
+    font-family: 'benz';
+    font-size: 25px;
+    transition: transform 0.5s;
+}
+
+.nav_d:hover{
+    transform: scale(1.04);
+    color: #24acac;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+h1{
+    font-family: 'mercedes';
+    color: #166d6d;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.sec1{
+    height: 1500px;
+}
+
+.p_img{
+    text-align: center;
+}
+
+.b{
+   /* background-color: #166d6d;  */
+   background-image: url('../imgs/carro_ham_2.png');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   color: #24acac;
+   text-align: center;
+   font-family: 'benz';
+   font-size: 50px;
+   /* padding-top: 150px; */
+}
+
+h2{
+    font-family: 'mercedes';
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.carreira{
+    color: rgb(216, 209, 209);
+    text-align: start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.titulos{
+    margin-top: 40px;
+    text-align: justify;
+    color: white;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: 'benz';
+    font-size: 16px;
+}
+
+.p_t{
+    height: 430px;
+    background-color: black;
+    transition: transform 1s;
+}
+
+.p_t:hover{
+    transform: scale(1.1);
+}
+
+.cada_t{
+    border: 1px solid #3e3f3f;
+}
+
+h6{
+    /* text-align: center; */
+    color: #24acac;
+    font-family: 'mercedes';
+}
+
+.sec2{
+    height: 900px;
+}
+
+.tabela{
+    font-family: 'benz';
+    font-size: 22px;
+}
+
+th{
+    color: #166d6d;
+}
+
+.sec3{
+    height: 1070px;
+}
+
+footer{
+    height: 350px;
+    background-color: #166d6d;
+}
+
+.F_escrita{
+    font-family: 'mercedes';
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 90px;
+}
+
+.F_img{
+    padding-top: 60px;
+    text-align: end;
+}
+
+.topo{
+    text-align: end;
+    font-size: 30px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.seta{
+    color: white;
+    transition: color 1s;
+}
+
+.seta:hover{
+    color: #24acac;
+}
