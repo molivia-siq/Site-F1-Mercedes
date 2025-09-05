@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Novos Conceitos de Bootstrap | Sobre</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/sobre.css">
+    <link rel="shortcut icon" href="../imgs/fav_icon_mercedes.png">
+    <script src="https://kit.fontawesome.com/7799490259.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+
+    <header id="ir_topo">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col">
+                    <nav class="nav justify-content-center">
+                        <a href="../index.html" class="nav-link p_nav" aria-current="page" title="Home | Mercedes AMG - Formula 1 Team">Home</a>
+                        <a href="../nav/store.html" target="_blank" class="nav-link p_nav" aria-current="page" title="Store | Mercedes AMG - Formula 1 Team">Store</a>
+                        <a href="../nav/hamilton.html" class="nav-link p_nav" aria-current="page" title="Lewis Hamilton | Mercedes AMG - Formula 1 Team">Lewis Hamilton</a>
+                        <a href="../nav/russel.html" class="nav-link p_nav" aria-current="page" title="George Russel | Mercedes AMG - Formula 1 Team">George Russel</a>
+                        <a href="../sobre_bootstrap/sobre.html" class="nav-link nav_d" aria-current="page" Novos title="Conceitos de Bootstrap | Sobre">Sobre</a>
+                        <a href="https://www.instagram.com/mercedesamgf1/" target="_blank" class="nav-link p_nav"
+                            aria-current="page" title="Instagram | Mercedes AMG - Formula 1 Team"> <i class="fa-brands fa-instagram insta"></i> </a>
+                    </nav>
+                </div>
+
+            </div>
+
+        </div>
+
+        <h1>NOVOS CONCEITOS DE BOOTSTRAP</h1>
+
+    </header>
+
+    <div class="sec1">
+
+        <h2 class="h2">Atividade Avaliativa</h2>
+
+        <h5>De acordo com a atividade avaliativa devemos utilizar no mínimo dois conceitos novos não aprendidos em sala
+        </h5>
+
+        <p class="txt">Abaixo estão os dois conceitos novos, de que me lembro, que utilizei em meu site:</p>
+
+        <div class="conceito">
+
+            <a href="https://getbootstrap.com/docs/5.1/components/accordion/#example" target="_blank" class="a_c">
+                <h3>Acordeão (Accordion)</h3>
+            </a>
+
+            <div class="container">
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Accordion Item #1 Exemplo
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong>
+                                <p>"Não dê ouvidos a ninguém que lhe diga que você não pode alcançar algo. Sonhe o
+                                    impossível! Você tem que trabalhar por isso, persegui-lo e nunca desistir!"</p>
+                                <strong>- Lewis Hamilton</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Accordion Item #2 Exemplo
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong>
+                                <p>"Eu não ambiciono ser como os outros pilotos - Eu aspiro ser único em meu próprio
+                                    estilo."</p>
+                                <strong>- Lewis Hamilton</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Accordion Item #3 Exemplo
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong>
+                                <p>"Em corridas há sempre coisas que você pode aprender, todos os dias. Há sempre espaço
+                                    para melhorias, e acho que isso se aplica a tudo na vida."</p>
+                                <strong>- Lewis Hamilton</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="txt2">
+
+                <p>Acima podemos observar um exemplo de Accordion; os acordeões se expandem e se recolhem ao serem
+                    clicados.</p>
+                <p>Após um ser "acessado", o outro se recolhe de imediato. Portanto, são vistos um de cada vez.</p>
+                <p>Porém existe outros no qual, ao o acordeão ser clicado, ele sempre ficará aberto. Esse possui o
+                    <code>id="accordionPanelsStayOpenExample"</code>.</p>
+
+            </div>
+
+        </div>
+
+        <div class="conceito">
+
+            <a href="https://getbootstrap.com/docs/5.1/components/card/" target="_blank" class="a_c">
+                <h3>Cartões (Cards)</h3>
+            </a>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-4 d-flex justify-content-center">
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="../imgs/ham_principal.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Lewis Hamilton | Exemplo</h5>
+                                <p class="card-text">"Fórmula um era um esporte muito perigoso. Ainda é perigoso. Mas o fator de perigo também é a parte emocionante."</p>
+                                <a href="../index.html" class="btn btn-dark" title="Home | Mercedes AMG - Formula 1 Team">Go somewhere | Home</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-8">
+
+                        <div class="txt3">
+
+                            <p>O exemplo ao lado é de um card básico que nos mostra um pouco o que ele é.</p>
+                            <p>Ele é um contêiner que possui vários tipos de conteúdos e tamanhos. Pode-se usar imagens, textos, para cabeçalhos e rodapés, links, listas, tendo uma ampla variedade para cores de fundo, temas e uma apresentação chamativa.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col F_escrita">
+                    <p> <strong> WE RACE AS ONE </strong> </p>
+
+                    <p>Copyright: Maria Olivia Meca de Siqueira</p>
+                </div>
+
+                <div class="col F_img">
+                    <img src="../imgs/fav_icon_mercedes.png" alt="Icone Mercedes" height="200px">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="topo">
+            <a href="#ir_topo" title="Voltar ao topo"> <i class="fa-solid fa-angles-up seta"></i> </a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
